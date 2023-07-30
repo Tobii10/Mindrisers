@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Selector list</h1>
+    <style>
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        a{
+            text-decoration: none;
+            color: inherit;
+        }
+        ul,ol{
+            list-style-type: none;
+        }
+        .text3x-1{
+            font-size: 16px;
+            font-size: 1rem;
+            font-size: 3em;
+        }
+        .font-bold{
+            font-weight: 700;
+        }
+        header{
+            background-color: bisque;
+            padding: 1rem;
+        }
+        header li{
+            display: inline;
+            margin: .5rem;
+        }
+        .ml-1{
+            margin-left: 1rem;
+        }
+        .selectors-list ul{
+            padding-left: 2rem;
+            list-style-type: disc;
+        }
+    </style>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">home</a>
+                </li>
+                <li class="ml-1">
+                    <a href="#">about us</a>
+                </li>
+                <li class="ml-1">
+                    <a href="#">contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <p class="text-3xl font-bold">selectors</p>
+    <div class="selectors-list">
+        <ul class="">
+            <li>element / tag</li>
+            <li>
+                class
+            </li>
+            <li>
+                id
+            </li>
+            <li>
+                combined selectors
+            </li>
+            <ul>
+                <li>descendent Selector</li>
+                <li>and selector </li>
+            </ul>
+        </ul>
+    </div>
+</body>
+</html>

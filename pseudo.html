@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Pseudo class</h1>
+    <div class="boxes">fbhdsj</div>
+    <div class="box red">box-1</div>
+    <div class="box">
+        <span class="red">box-2</span>
+    </div>
+    <div class="box">box-3</div>
+    <div class="box">box-4</div>
+    <div class="box">box-5</div>
+    <style>
+        .box{  
+            border: 1px solid black;
+            height: 7rem;
+            width: 7rem;
+            padding: 10px;
+        }
+        p span.red{
+            color: red;
+        }
+        div .red{
+            background-color: red;
+        }
+        span.red{
+            color: red;
+        }
+        body :first-child{
+            color: red;
+        }
+        body :last-child{
+            color: red;
+        }
+    </style>
+    <p>Lorem ipsum, dolor sit amet <span class="red">consectetur</span> adipisicing elit. Placeat similique doloremque, cupiditate dignissimos omnis fugit quam corporis qui repudiandae est commodi voluptatem minima? Vitae quas libero, deleniti culpa explicabo quaerat?</p>
+</body>
+</html>
